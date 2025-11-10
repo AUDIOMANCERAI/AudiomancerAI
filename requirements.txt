@@ -2,4 +2,5 @@ flask
 flask-cors
 pydub
 gunicorn
+ffmpeg-python
 # Plus any other libraries for Gemini or other utilities
