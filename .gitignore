@@ -1,0 +1,11 @@
+# Dependency directories
+/node_modules
+
+# Build output directories
+/dist
+/build
+
+# Logs and local configurations
+npm-debug.log*
+.env
+.env.local

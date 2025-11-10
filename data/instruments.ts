@@ -1,0 +1,21 @@
+export const instruments: string[] = [
+  "Accordion", "Acoustic Guitar", "Agogo Bells", "Alto Sax", "Bagpipes",
+  "Balalaika", "Banjo", "Bansuri", "Baritone Sax", "Bass Guitar", "Bassoon",
+  "Beatbox", "Bongos", "Bouzouki", "Brass Section", "Cajon", "Celeste",
+  "Cello", "Chapman Stick", "Choir Aahs", "Choir Oohs", "Church Organ",
+  "Clarinet", "Clavinet", "Congas", "Cowbell", "Didgeridoo", "Djembe",
+  "Dobro", "Double Bass", "Drum Machine", "Drums (Acoustic)", "Dulcimer",
+  "E-Bow Guitar", "Electric Guitar", "Electric Piano", "Fiddle", "Finger Snaps",
+  "Flute", "French Horn", "Gamelan", "Glass Harmonica", "Glockenspiel",
+  "Grand Piano", "Guiro", "Hammond B-3", "Hand Claps", "Hang Drum",
+  "Harmonica", "Harp", "Harpsichord", "Kalimba", "Koto", "Lap Steel",
+  "LinnDrum", "Lute", "Mandolin", "Marimba", "Melodica", "Mellotron",
+  "Music Box", "Oboe", "Ondes Martenot", "Organ", "Orchestral Percussion",
+  "Oud", "Pan Flute", "Pedal Steel", "Piano", "Recorder", "Rhodes Piano",
+  "Sarod", "Saxophone", "Shaker", "Shamisen", "Sitar", "Solo Voice",
+  "Soprano Sax", "Steel Drums", "String Section", "Tabla", "Taiko Drums",
+  "Taikotron", "Talk Box", "Tambourine", "Tenor Sax", "Theremin", "Timpani",
+  "TR-808", "TR-909", "Triangle", "Trombone", "Trumpet", "Tuba",
+  "Uilleann Pipes", "Ukulele", "Upright Piano", "Vibraphone", "Viola",
+  "Violin", "Vocoder", "Wood Block", "Wurlitzer", "Xylophone", "Zither"
+];

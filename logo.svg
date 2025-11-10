@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="#22d3ee">
+  <!-- Left leg of A -->
+  <path d="M 50,10 L 10,90 L 35,90 L 45,60 Z" />
+  <!-- Right leg of A -->
+  <path d="M 50,10 L 90,90 L 65,90 L 55,60 Z" />
+  <!-- Wave crossbar -->
+  <path d="M 38,58 Q 44,48 50,58 T 62,58" stroke="#22d3ee" fill="none" stroke-width="7" stroke-linecap="round"/>
+</svg>
