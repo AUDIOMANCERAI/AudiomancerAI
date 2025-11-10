@@ -1,4 +1,5 @@
 flask
 pydub
+gunicorn
 # Add any other libraries you used (e.g., requests, python-dotenv)
 # If you used pydub, you will also need to manually install FFmpeg on Render (see Step 3)
