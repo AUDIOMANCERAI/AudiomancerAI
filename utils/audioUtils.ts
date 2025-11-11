@@ -70,6 +70,7 @@ export async function decodeAudioData(
 
 // Converts an AudioBuffer to a WAV file Blob.
 export const bufferToWave = (buffer: AudioBuffer): Blob => {
+};
   const numOfChan = buffer.numberOfChannels;
   const length = buffer.length * numOfChan * 2 + 44;
   const bufferArray = new ArrayBuffer(length);
