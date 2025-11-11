@@ -1,3 +1,4 @@
+// tsconfig.node.json (Correction)
 {
   "compilerOptions": {
     "composite": true,
@@ -6,5 +7,11 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["vite.config.ts"]
+  // --- REMOVE THIS LINE ---
+  // "include": ["vite.config.ts"] 
+  
+  // Vercel may require an 'include' array, but if you're not using it,
+  // it should be empty or point to a file that exists. 
+  // For safety, remove the reference or set it to an empty array:
+  "include": []
 }
