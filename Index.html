@@ -2,59 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audiomancer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              'fuchsia': {
-                '50': '#fdf4ff',
-                '100': '#fae8ff',
-                '200': '#f5d0fe',
-                '300': '#f0abfc',
-                '400': '#e879f9',
-                '500': '#d946ef',
-                '600': '#c026d3',
-                '700': '#a21caf',
-                '800': '#86198f',
-                '900': '#701a75',
-                '950': '#4a044e',
-              },
-              'bunker': {
-                '50': '#f2f3f7',
-                '100': '#e6e7ee',
-                '200': '#cdd0dd',
-                '300': '#a7adbf',
-                '400': '#7d859f',
-                '500': '#5f6785',
-                '600': '#4a506c',
-                '700': '#3e435a',
-                '800': '#34384a',
-                '900': '#2f3241',
-                '950': '#0f1015',
-              },
-            }
-          }
-        }
-      }
-    </script>
-  <script type="importmap">
-{
-  "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-</head>
+  </head>
   <body class="bg-gradient-to-br from-bunker-950 to-black">
     <div id="root"></div>
+    <!-- Point to your entry file in src -->
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

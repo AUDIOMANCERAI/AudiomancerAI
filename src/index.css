@@ -1,0 +1,31 @@
+/* src/index.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+Step 5: Update index.html
+Make sure the script points to your entry file:
+
+html
+Copy code
+<script type="module" src="/src/main.tsx"></script>
+Step 6: Test locally
+bash
+Copy code
+npm run dev
+You should see “Hello, Audioancer!” in your browser.
+
+After this, you can build and deploy to GitHub Pages without the missing file error.
+
+If you want, I can give you a complete ready-to-deploy Vite + React project structure for GitHub Pages, so you just copy it and it works immediately.
+
+Do you want me to do that?
+
+
+
+
+
+
+
