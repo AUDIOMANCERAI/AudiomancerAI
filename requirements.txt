@@ -1,5 +1,6 @@
+# --- START OF FILE requirements.txt ---
 flask
 flask-cors
 gunicorn
-
-# Plus any other libraries for Gemini or other utilities
+google-genai # <--- ADD THIS
+# --- END OF FILE requirements.txt ---
